@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 45%;
+    background-image: url(camufla.jpg);
+    background-size: cover;
+}
+header{
+    border: 1px solid black;
+    padding: 100px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+main{
+    border: 1px solid black;
+    padding: 100px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sobre-senha{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: 10px 0;
+}
+#esqueceusenha{
+    text-decoration: none;
+}
+.loginalt{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.logo:hover{
+    transition: 0,5 ease-in-out;
+    width: 75px;
+}
+.logo{
+    width: 50px;
+}
+h1{
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+
+}
+.formulario{ 
+    display: flex;
+    gap: 20px;
+    border: 1px solid rgb(107, 106, 106);
+    padding: 0 15px;
+}
+
+#email1{
+    font-size: 20px;
+}
+
+#senha1{
+    font-size: 20px;
+}
+
+#submit{
+    
+    width: 250px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 75px;
+    background-color: rgb(186, 204, 253);
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+#submit:hover{
+    transition: 0,5 ease-in-out;
+    background-color: rgb(120, 155, 250);;
+    text-shadow: 1px 1px 1px rgb(43, 97, 247);;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+}
